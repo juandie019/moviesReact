@@ -10,8 +10,15 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-between;
     max-width: var(--maxWidth);
-    paddding: 20px 0;
+    padding: 20px 0;
     margin: 0 auto;
+    color: var(--white);
+    
+    a {
+        color: var(--white);
+        text-decoration: none;
+    }
+
 `;
 
 export const LogoImg = styled.img`
